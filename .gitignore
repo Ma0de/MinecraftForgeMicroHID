@@ -24,5 +24,4 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 "src/main/resources/assets/micro_hid/sounds/ffmpeg.exe" 
-"*.exe" 
-"src/main/resources/assets/micro_hid/sounds/ffmpeg.exe" 
+"*.exe"
