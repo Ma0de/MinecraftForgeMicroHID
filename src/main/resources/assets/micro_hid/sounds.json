@@ -1,0 +1,42 @@
+{
+  "railgun_draw": {
+    "sounds": ["micro_hid:railgun_draw"]
+  },
+  "railgun_high_charge_1": {
+    "sounds": ["micro_hid:high_charge_1"]
+  },
+  "railgun_high_charge_2": {
+    "sounds": ["micro_hid:high_charge_2"]
+  },
+  "railgun_high_charge_3": {
+    "sounds": ["micro_hid:high_charge_3"]
+  },
+  "railgun_high_charge_4": {
+    "sounds": ["micro_hid:high_charge_4"]
+  },
+  "railgun_high_charge_5": {
+    "sounds": ["micro_hid:high_charge_5"]
+  },
+
+  "railgun_high_discharge_1": { "sounds": ["micro_hid:high_discharge_1"] },
+  "railgun_high_discharge_2": { "sounds": ["micro_hid:high_discharge_2"] },
+  "railgun_high_discharge_3": { "sounds": ["micro_hid:high_discharge_3"] },
+  "railgun_high_discharge_4": { "sounds": ["micro_hid:high_discharge_4"] },
+  "railgun_high_discharge_5": { "sounds": ["micro_hid:high_discharge_5"] },
+  "railgun_high_discharge_6": { "sounds": ["micro_hid:high_discharge_6"] },
+  "railgun_high_discharge_7": { "sounds": ["micro_hid:high_discharge_7"] },
+  "railgun_high_discharge_8": { "sounds": ["micro_hid:high_discharge_8"] },
+  "railgun_high_discharge_9": { "sounds": ["micro_hid:high_discharge_9"] },
+  "railgun_high_charge_continuous": {
+    "sounds": ["micro_hid:high_charge_continuous"]
+  },
+  "railgun_high_discharge": {
+    "sounds": ["micro_hid:high_discharge"]
+  },
+  "railgun_high_discharge_complete": {
+    "sounds": ["micro_hid:high_discharge_complete"]
+  },
+  "railgun_overcharge_damage": {
+    "sounds": ["micro_hid:overcharge_damage"]
+  }
+}
