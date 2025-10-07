@@ -49,7 +49,7 @@
 
 ### 1. 代码
 
-**本项目代码采用 [MIT License](LICENSE-MIT.md)**
+**本项目代码采用 [MIT License](LICENSE)**
 
 ### 2. 模型与纹理
 
