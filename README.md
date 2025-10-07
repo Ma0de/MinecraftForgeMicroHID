@@ -49,11 +49,11 @@
 
 ### 1. 代码
 
-**本项目代码采用 [MIT License](license-code.md)**
+**本项目代码采用 [MIT License](LICENSE-MIT.md)**
 
 ### 2. 模型与纹理
 
-**我的原创模型与纹理资产采用 [Creative Commons Attribution 4.0 International (CC BY 4.0)](license-models.md) 许可证**
+**我的原创模型与纹理资产采用 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CC-BY-4.0.md) 许可证**
 
 > 这意味着：  
 > **你可以为任何目的（包括商业目的）自由地分享、修改、使用我的模型，唯一的条件是必须为我署名**
