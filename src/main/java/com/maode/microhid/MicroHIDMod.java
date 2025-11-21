@@ -4,8 +4,11 @@ import com.maode.microhid.item.Moditems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -20,7 +23,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.sounds.SoundEvent;
-
+import net.minecraft.world.item.crafting.RecipeSerializer;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -68,8 +71,6 @@ public class MicroHIDMod
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MOD_ID);
 
 
-    // 注册声音事件
-// 放在其它声音注册旁边
     public static final RegistryObject<SoundEvent> RAILGUN_HIGH_DISCHARGE_1 = registerSoundEvent("railgun_high_discharge_1");
     public static final RegistryObject<SoundEvent> RAILGUN_HIGH_DISCHARGE_2 = registerSoundEvent("railgun_high_discharge_2");
     public static final RegistryObject<SoundEvent> RAILGUN_HIGH_DISCHARGE_3 = registerSoundEvent("railgun_high_discharge_3");
@@ -101,6 +102,10 @@ public class MicroHIDMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(Moditems.MICRO_HID);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -2,6 +2,7 @@ package com.maode.microhid;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

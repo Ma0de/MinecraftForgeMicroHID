@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "H": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "pattern": [
+    "GRG",
+    "XHX",
+    "XXX"
+  ],
+  "result": {
+    "item": "micro_hid:micro_hid"
+  },
+  "show_notification": true
+}

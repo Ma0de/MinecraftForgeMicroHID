@@ -13,6 +13,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+// 新增导入
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.world.item.Items;
+import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import java.util.function.Consumer;
+
 import javax.annotation.Nullable;
 import java.util.List;
 
