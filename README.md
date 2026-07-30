@@ -10,11 +10,7 @@
 
 ## 功能特性
 
-- 独立模型
-    
-- 拥有高能蓄力功能
-    
-- 带蓄力、发射音效
+不想介绍（
 
 
 ## 游戏内安装
@@ -29,19 +25,21 @@
 
 本项目使用 Forge MDK
 （建议）确保你安装了Java21、IntelliJ IDEA
-我使用的IDEA版本为：IntelliJ IDEA Community Edition 2025.2.3
+我使用的开发环境：VSCode + Extension Pack for Java + Gradle
 
 1. 首先 `git clone https://github.com/Ma0de/MinecraftForgeMicroHID.git` 克隆此项目到本地
 
-2. 用 IDEA 打开此项目
+2. 用 IDEA（或者和我一样的VEPJG环境） 打开此项目
 
-3. 在 Gradle 点击 **Tasks -> build -> build**
+3. 在 Gradle 点击 **Tasks -> build -> build**（VEPJG环境用F5）
 
 
 ## 未来
 
-添加主开火模式
-修复放电音频不停止的BUG
+我不可能每更新一次就写一次未来，索性不频繁地写了
+我已经修复了一些已知问题，并且在积极更新
+
+我打算在完善后，添加充电设备、电池什么的，但现在没想出来什么好主意
 
 ## 许可证
 

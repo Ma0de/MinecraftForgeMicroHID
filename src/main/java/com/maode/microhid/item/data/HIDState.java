@@ -1,0 +1,5 @@
+package com.maode.microhid.item.data;
+
+public enum HIDState {
+    IDLE, PRIMARY_WINDUP, PRIMARY_FIRING, CHARGE_WINDUP, CHARGE_HOLDING, CHARGE_FIRING, OVERCHARGE_EXPLODING, COOLDOWN
+}

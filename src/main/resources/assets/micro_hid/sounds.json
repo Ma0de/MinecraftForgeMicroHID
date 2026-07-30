@@ -1,26 +1,35 @@
 {
   "railgun_draw": {
-    "sounds": [{"name": "micro_hid:draw", "stream": true}]
+    "sounds": ["micro_hid:draw"]
   },
   "railgun_wind_up_heavy": {
-    "sounds": [{"name": "micro_hid:wind_up_heavy", "stream": true}]
+    "sounds": ["micro_hid:wind_up_heavy"]
   },
   "railgun_wind_up_light": {
-    "sounds": [{"name": "micro_hid:wind_up_light", "stream": true}]
+    "sounds": ["micro_hid:wind_up_light"]
   },
   "railgun_wind_up_broken": {
-    "sounds": [{"name": "micro_hid:wind_up_broken", "stream": true}]
+    "sounds": ["micro_hid:wind_up_broken"]
   },
   "railgun_fire_heavy": {
-    "sounds": [{"name": "micro_hid:fire_heavy", "stream": true}]
+    "sounds": ["micro_hid:fire_heavy"]
   },
   "railgun_fire_light": {
-    "sounds": [{"name": "micro_hid:fire_light", "stream": true}]
+    "sounds": ["micro_hid:fire_light"]
+  },
+  "railgun_stop_firing_heavy": {
+    "sounds": ["micro_hid:stop_firing_heavy"]
+  },
+  "railgun_stop_firing_light": {
+    "sounds": ["micro_hid:stop_firing_light"]
+  },
+  "railgun_stop_firing_broken": {
+    "sounds": ["micro_hid:stop_firing_broken"]
   },
   "railgun_inspect": {
-    "sounds": [{"name": "micro_hid:inspect", "stream": true}]
+    "sounds": ["micro_hid:inspect"]
   },
   "railgun_overcharge": {
-    "sounds": [{"name": "micro_hid:overcharge", "stream": true}]
+    "sounds": ["micro_hid:overcharge"]
   }
 }
